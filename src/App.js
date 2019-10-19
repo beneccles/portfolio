@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import routes from './routes';
 import './App.css';
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
         </g>
       </svg> */}
       <Header />
+      { routes }
     </div>
   );
 }
