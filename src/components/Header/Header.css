@@ -9,6 +9,15 @@
          font-style: normal;
 }
 
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../../assets/Ailerons_webfont/ailerons-regular-webfont.ttf') format('truetype'),
+         url('../../assets//Ailerons_webfont/ailerons-regular-webfont.woff') format('woff'),
+         url('../../assets/Ailerons_webfont/ailerons-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
 .Header {
     background-color: #4A7598;
     width: 100%;
@@ -33,8 +42,12 @@
     color: #E5ECED;
 }
 
+.navBar > span {
+    font-family: 'Ailerons';
+    font-size: 16px;
+}
+
 .nameLogo {
-    font-family: 'blanka';
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -45,6 +58,7 @@
 
 .nameLogo > h1 {
     font-family: 'blanka';
+    font-size: 150%;
     margin-left: 20px;
     color: #E5ECED;
 }
