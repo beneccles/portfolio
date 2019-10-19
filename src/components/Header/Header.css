@@ -1,0 +1,50 @@
+
+
+@font-face {
+    font-family: 'blanka';
+    src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+         url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+.Header {
+    background-color: #4A7598;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.navBar {
+    margin-right: 20px;
+    width: 12vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color: #E5ECED;
+}
+
+.nameLogo {
+    font-family: 'blanka';
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.nameLogo > h1 {
+    font-family: 'blanka';
+    margin-left: 20px;
+    color: #E5ECED;
+}
