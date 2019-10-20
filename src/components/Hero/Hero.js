@@ -7,7 +7,7 @@ function Hero() {
     return (
         <div className="Hero">
             <div id="heroImage" style={{ backgroundImage: `url('${me})`}}>
-
+                TEST
             </div>
         </div>
     )
