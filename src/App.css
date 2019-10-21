@@ -49,11 +49,17 @@ table {
 /*******************************************************/
 
 body {
-  background-color: #253448;
+  /* background-color: #253448; */
 }
 
 .App {
-  height: 100vh;
+  height: 300vh;
   width: 100vw;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
 }

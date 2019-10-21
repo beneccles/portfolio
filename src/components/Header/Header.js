@@ -11,7 +11,7 @@ export default function Header() {
             <h1>Benjamin Eccles</h1>
         </div>
       <div className="navBar">
-        <a href='#about'>About</a>
+        <a href='#Hi.'>About</a>
         <a href='#contact'>Contact</a>
         <a href='#projects'>Projects</a>
       </div>

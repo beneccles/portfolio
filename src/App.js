@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
-import routes from './routes';
 import './App.css';
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
         </g>
       </svg> */}
       <Header />
-      { routes }
+        <Hero />
+        <Projects />
+        <Contact />
     </div>
   );
 }
