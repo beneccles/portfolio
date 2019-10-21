@@ -1,6 +1,22 @@
+@font-face {
+    font-family: 'blanka';
+    src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+         url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
 .Projects {
     width: 100vw;
     height: 100vh;
     background-color: #E5ECED;
     z-index: 9999;
+}
+
+.Projects > h1 {
+    font-family: 'blanka';
+    font-size: 26px;
+    color: #243447;
+    text-align: Center;
 }
