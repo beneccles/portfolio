@@ -1,5 +1,31 @@
+@font-face {
+    font-family: 'blanka';
+    src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+         url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
 .Contact {
     width: 100vw;
     height: 100vh;
     background-color: #253448;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
 }
+
+.Contact > h1 {
+    margin-top: 10px;
+    font-family: 'blanka';
+    color: #E5ECED;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 2px solid #E5ECED;
+    width: 50%;
+}
+
