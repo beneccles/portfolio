@@ -20,7 +20,7 @@
 
 .Header {
     background-color: #4A7598;
-    width: 100%;
+    width: 100vw;
     height: 5vh;
     display: flex;
 	flex-direction: row;
@@ -42,13 +42,16 @@
     color: #E5ECED;
 }
 
-.navBar > span {
+.navBar > a {
     font-family: 'Ailerons';
     font-size: 16px;
+    text-decoration: none;
+    color: #E5ECED;
 }
 
 .nameLogo {
-    display: flex;
+  margin-left: 20px;
+  display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
@@ -59,7 +62,6 @@
 .nameLogo > h1 {
     font-family: 'blanka';
     font-size: 150%;
-    margin-left: 20px;
     color: #E5ECED;
 }
 
@@ -125,7 +127,10 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-
+    .navBar {
+      visibility: hidden;
+  }
+  
 }
 
 /* Portrait */
@@ -134,7 +139,36 @@
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    .navBar {
+      visibility: hidden;
+      margin-right: 0px;
+      width: 0vw;
+    }
 
+    .nameLogo {
+      margin-left: 0px;
+      display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+      align-content: stretch;
+      overflow: auto;
+    }
+
+    
+.Header {
+  background-color: #4A7598;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  overflow: auto;
+}
 }
 
 /* Landscape */
@@ -142,6 +176,12 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
+  and (orientation: landscape) {
+    .navBar {
+      visibility: hidden;
+  }
 
+  .Header {
+    height: 7vh;
+  }
 }

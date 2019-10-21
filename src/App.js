@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header/Header';
+// eslint-disable-next-line
 import Hero from './components/Hero/Hero';
 import routes from './routes';
 import './App.css';

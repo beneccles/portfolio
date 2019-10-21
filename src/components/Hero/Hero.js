@@ -6,8 +6,8 @@ import './Hero.css';
 function Hero() {
     return (
         <div className="Hero">
-            <div id="heroImage" style={{ backgroundImage: `url('${me})`}}>
-                TEST
+            <div>
+                {/* <img id="heroImage" src={me} alt="profile portrait" /> */}
             </div>
         </div>
     )

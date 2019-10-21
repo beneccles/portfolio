@@ -48,12 +48,6 @@ table {
 }
 /*******************************************************/
 
-#svgBack {
-  height: 100vh;
-  width: 100vw;
-
-}
-
 body {
   background-color: #253448;
 }
@@ -61,4 +55,5 @@ body {
 .App {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
