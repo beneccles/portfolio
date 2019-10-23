@@ -48,6 +48,10 @@ table {
 }
 /*******************************************************/
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   /* background-color: #253448; */
 }

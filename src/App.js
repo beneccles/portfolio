@@ -4,6 +4,7 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
+import {Element} from 'react-scroll';
 import './App.css';
 
 function App() {
@@ -19,9 +20,15 @@ function App() {
         </g>
       </svg> */}
       <Header />
+      <Element name="Hero" className="element">
         <Hero />
+      </Element>
+      <Element name="Projects" className="element">
         <Projects />
+      </Element>
+      <Element name="Contact" className="element">
         <Contact />
+      </Element>
     </div>
   );
 }
