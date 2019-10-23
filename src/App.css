@@ -57,7 +57,7 @@ body {
 }
 
 .App {
-  height: 300vh;
+  height: 305vh;
   width: 100vw;
   overflow: hidden;
   display: flex;
@@ -66,4 +66,5 @@ body {
   justify-content: center;
   align-items: center;
   align-content: stretch;
+  overflow: hidden;
 }
