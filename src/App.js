@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Skills from './components/Skills/Skills';
+import About from './components/About/About';
 import ScrollSnap from 'scroll-snap';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
@@ -25,8 +26,9 @@ class App extends Component {
       <div className="App" ref={this.projects}>
         <Header scroll={this.scrollToBottom}/>
         <Hero />
-        <Skills />
+        <About />
         <Projects />
+        <Skills />
         <Contact />
       </div>
         </body>
