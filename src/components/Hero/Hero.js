@@ -6,7 +6,7 @@ import './Hero.css';
 function Hero() {
 
     return (
-        <div className="Hero">
+        <div id="Hero">
             {/* <img id="heroImage" src={me} alt="profile portrait" /> */}
             <div className="heroText">
                 <h1>Hi.</h1>

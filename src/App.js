@@ -1,36 +1,38 @@
-import React from 'react';
+import React, {useRef, useEffect, Component} from 'react';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import Skills from './components/Skills/Skills';
+import ScrollSnap from 'scroll-snap';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
-import {Element} from 'react-scroll';
 import './App.css';
 
-function App() {
 
-  return (
-    <div className="App">
-      {/* <svg id="svgBack" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <g fill="white" stroke="green" stroke-witdth="5">
-          <circle cx="40" cy="40" r="5" />
-          <circle cx="60" cy="60" r="25" />
-          <line xl="0" x2="100" y1="50" y2="70" />
-          <circle stroke="blue" cx="40" cy="40" r="5" />
-        </g>
-      </svg> */}
-      <Header />
-      <Element name="Hero" className="element">
+class App extends Component {
+  constructor() {
+    super()
+
+    this.projects = React.createRef()
+  }
+
+  scrollToBottom = () => window.scrollTo({top: 200, left: 0,  behavior: 'smooth'})
+
+  render() {
+    console.log(this.projects.current)
+    return (
+        <body>
+      <div className="App" ref={this.projects}>
+        <Header scroll={this.scrollToBottom}/>
         <Hero />
-      </Element>
-      <Element name="Projects" className="element">
+        <Skills />
         <Projects />
-      </Element>
-      <Element name="Contact" className="element">
         <Contact />
-      </Element>
-    </div>
-  );
+      </div>
+        </body>
+  )
+}
+
 }
 
 export default App;
