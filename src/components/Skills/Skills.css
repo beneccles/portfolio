@@ -2,11 +2,25 @@
     width: 100%;
     height: 100vh;
     background-color: #E5ECED;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
 
 .skillIcons {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    justify-self: center;
-    justify-content: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
+
+.svgItem {
+    height: 250px;
+    width: 250px;
+}
+
