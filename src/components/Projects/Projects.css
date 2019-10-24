@@ -30,3 +30,8 @@
     border-bottom: 2px solid #243447;
     width: 50%;
 }
+
+.project {
+    color: white;
+    list-style-type: disc;
+}

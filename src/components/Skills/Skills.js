@@ -4,6 +4,7 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div className="Skills">
+      <h1>Skills</h1>
       <div className="skillIcons">
         {/* Javascript */}
         <div className="svgItem">

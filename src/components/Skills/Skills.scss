@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+.Skills > h1 {
+	font-family: 'Roboto Mono', monospace;
+	color: #253448;
+	font-weight: 700;
+	font-size: 48px;
+}
+.Skills {
+    width: 100%;
+    height: 100vh;
+    background-color: #E5ECED;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.skillIcons {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.svgItem {
+    height: 250px;
+	width: 250px;
+}
+
