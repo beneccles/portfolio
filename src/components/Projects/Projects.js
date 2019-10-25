@@ -4,7 +4,6 @@ import './Projects.css'
 function Projects() {
     return (
         <div id="Projects">
-            <h1>Projects</h1>
             <div className="project">
                 <h1>Reforged Machines</h1>
                 <ul>
@@ -18,6 +17,9 @@ function Projects() {
                     <li>Live site: www.reforged.tech</li>
                     <li>GitHub Repo Link Here</li>
                 </ul>
+            </div>
+            <div className="project">
+                
             </div>
         </div>
     )

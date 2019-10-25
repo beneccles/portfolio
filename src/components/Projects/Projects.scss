@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "blanka";
+  src: url("../../assets/blanka_webfont/blanka-regular-webfont.ttf")
+      format("truetype"),
+    url("../../assets/blanka_webfont/blanka-regular-webfont.woff")
+      format("woff"),
+    url("../../assets//blanka_webfont/blanka-regular-webfont.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#Projects {
+  width: 100vw;
+  height: 100vh;
+  background-color: #243447;
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  scroll-snap-align: center;
+  border: 5px solid green;
+}
+
+.project {
+  color: white;
+  border: 1px solid red;
+  /* list-style-type: disc; */
+  font-family: "Roboto slab", sans-serif;
+  margin: 10px;
+  padding: 35px;
+  border-width: 15px;
+  height: 800px;
+  width: 700px;
+}
