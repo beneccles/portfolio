@@ -12,12 +12,24 @@
     height: 100vh;
     background-color: #E5ECED;
     display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    border: 5px solid orange;
+}
+
+.contactInfo {
+    display: flex;
+	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: flex-start;
     align-content: stretch;
-    scroll-snap-align: center;
+    border: 5px solid red;
+    width: 90%;
+    height: 90%;
 }
 
 #Contact > h1 {
