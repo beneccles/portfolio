@@ -23,10 +23,15 @@
 #Contact > h1 {
     margin-top: 10px;
     font-family: 'blanka';
-    color: #E5ECED;
+    color: black;
     font-size: 26px;
     text-align: center;
     border-bottom: 2px solid #E5ECED;
     width: 50%;
 }
+
+.svgItem {
+    height: 250px;
+    width: 250px;
+  }
 
