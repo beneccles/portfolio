@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
+
+.About {
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  background-color: white;
+
+  .image {
+    width: 150%;
+    height: 150%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid green;
+    background-position: 50%;
+    position: relative;
+    left: 40px;
+  }
+
+  #aboutMe {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+
+    h1 {
+      font-family: "Roboto slab", sans-serif;
+      position: relative;
+      left: 100px;
+      margin-bottom: 20px;
+    }
+  }
+
+  p {
+    font-family: "Roboto slab", sans-serif;
+    position: relative;
+    left: 100px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0;
+    line-height: 35px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .navi {
+    margin-top: 20px;
+    width: 80%;
+    height: 40px;
+    border: 1px solid red;
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+
+    a {
+      font-family: "Roboto slab", sans-serif;
+      font-size: 1.6rem;
+      text-decoration: none;
+      color: black;
+      border-right: 2px solid black;
+    //   text-align: center;
+    }
+
+    a:nth-child(1) {
+      border-left: 2px solid black;
+    }
+
+    // Apply margin to every anchor in navi, except for the first one.
+    // (To preserve
+    a:nth-child(n + 2) {
+      margin-left: 50px;
+    }
+  }
+}

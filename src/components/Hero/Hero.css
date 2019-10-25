@@ -1,128 +1,82 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
 #Hero {
-    width: 100%;
-    height: 100vh;
-    background-color: #253448;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    scroll-snap-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #253448;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  scroll-snap-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
-
 #heroImage {
-    width: 500px;
-    height: 500px;
-    z-index: 999;
-    object-fit: contain;
+  width: 500px;
+  height: 500px;
+  z-index: 999;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .heroText {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
 }
 
-.heroText > h1 {
-    font-family: 'Roboto slab', sans-serif;
-    color: #E5ECED;
-    font-size: 42px;
-    font-weight: 700;
+.heroText h1 {
+  font-family: 'Blanka';
+  color: #E5ECED;
+  font-size: 100px;
+  font-weight: 700;
 }
 
 .heroText > p {
-    color: #E5ECED;
-    font-family: 'Roboto slab', sans-serif;
-    font-size: 26px;
+  color: #E5ECED;
+  font-family: 'Roboto slab', sans-serif;
+  font-size: 26px;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-}
-
 /* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-
-}
-
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
-
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
 /* Portrait */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
 /* Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
-
 /* ----------- iPhone X ----------- */
-
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-  
-}
-
 /* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-}
-
 /* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-   
-}
+/*# sourceMappingURL=Hero.css.map */

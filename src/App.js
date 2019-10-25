@@ -4,7 +4,6 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
-import ScrollSnap from 'scroll-snap';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
 import './App.css';
@@ -17,14 +16,12 @@ class App extends Component {
     this.projects = React.createRef()
   }
 
-  scrollToBottom = () => window.scrollTo({top: 200, left: 0,  behavior: 'smooth'})
-
   render() {
     console.log(this.projects.current)
     return (
         <body>
       <div className="App" ref={this.projects}>
-        <Header scroll={this.scrollToBottom}/>
+        {/* <Header scroll={this.scrollToBottom}/> */}
         <Hero />
         <About />
         <Projects />
