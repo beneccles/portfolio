@@ -21,7 +21,7 @@ class App extends Component {
     return (
         <body>
       <div className="App" ref={this.projects}>
-        {/* <Header scroll={this.scrollToBottom}/> */}
+        <Header/>
         <Hero />
         <About />
         <Projects />

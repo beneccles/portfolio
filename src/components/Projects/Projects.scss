@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "anurati";
+  src: url("../../assets/anurati-regular-webfont.woff") format("woff"),
+    url("../../assets/anurati-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
 #Projects {
   width: 100vw;
@@ -11,12 +18,10 @@
   align-items: center;
   align-content: stretch;
   scroll-snap-align: center;
-  border: 5px solid green;
 }
 
 .project {
-  color: white;
-  border: 1px solid red;
+  color: #E5ECED;
   font-family: "Roboto slab", sans-serif;
   margin: 10px;
   padding: 35px;
@@ -24,13 +29,40 @@
   height: 800px;
   width: 700px;
 
+  h1 {
+    font-family: "anurati";
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
   .projectImages {
-    border: 5px solid green;
     width: 100%;
     height: 100%;
   }
 
-  ul {
-    margin-top: 20px;
+  p {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+
+  p:nth-child(3) {
+    margin-top: 5px;
+  }
+  
+  a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: stretch;
+    text-decoration: none;
+    color: #E5ECED;
+    font-size: 26px;
+
+    img {
+      margin-right: 10px;
+    }
   }
 }
