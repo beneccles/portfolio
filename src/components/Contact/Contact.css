@@ -1,14 +1,7 @@
-@font-face {
-  font-family: 'blanka';
-  src: url("../../assets/blanka_webfont/blanka-regular-webfont.ttf") format("truetype"), url("../../assets/blanka_webfont/blanka-regular-webfont.woff") format("woff"), url("../../assets//blanka_webfont/blanka-regular-webfont.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
 #Contact {
   width: 100vw;
   height: 100vh;
-  background-color: #E5ECED;
+  background-color: #243447;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,10 +19,21 @@
           align-items: center;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  border: 5px solid orange;
+}
+
+#Contact h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  margin-top: 10px;
+  color: black;
+  font-size: 48px;
+  text-align: center;
+  color: #E5ECED;
 }
 
 .contactInfo {
+  position: relative;
+  top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,26 +51,42 @@
           align-items: flex-start;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  border: 5px solid red;
   width: 90%;
   height: 90%;
+  padding-left: 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-#Contact > h1 {
-  margin-top: 10px;
-  font-family: 'blanka';
-  color: black;
-  font-size: 26px;
-  text-align: center;
-  border-bottom: 2px solid #E5ECED;
-  width: 50%;
+.contactInfo .contactLink {
+  text-decoration: none;
+  color: #E5ECED;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.8rem;
 }
 
-.svgItem {
-  height: 100%;
-  width: 100%;
-  max-width: 200px;
-  max-height: 200px;
+.contactInfo .contactLink:nth-child(n+0) {
+  margin-bottom: -50px;
+}
+
+.svgItem-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,17 +96,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-path {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  overflow: visible;
 }
 /*# sourceMappingURL=Contact.css.map */

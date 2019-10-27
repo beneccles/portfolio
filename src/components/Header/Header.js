@@ -1,6 +1,6 @@
 import React from "react";
 // eslint-disable-next-line
-import "./Header.css";
+import "./Header.scss";
 
 export default function Header(props) {
 

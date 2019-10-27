@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import me from '../../assets/ben_nobackground.png';
 import nasa from '../../assets/nasa2.jpg';
-import './Hero.css';
+import './Hero.scss';
 
 function Hero() {
 

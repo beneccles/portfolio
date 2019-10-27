@@ -11,10 +11,22 @@ function Contact() {
     <div id="Contact">
       <h1>Contact</h1>
       <div className="contactInfo">
+        <a className="contactLink" href="https://github.com/beneccles" target="_blank">
       <img className="svgItem" src={github} alt="github logo" />
+              https://github.com/beneccles
+        </a>
+      <a className="contactLink" href="https://www.linkedin.com/in/benjamin-grant-eccles" target="_blank">
       <img className="svgItem" src={linkedIn} alt="LinkedIn Logo" />
+              https://www.linkedin.com/in/benjamin-grant-eccles
+      </a>
+      <a className="contactLink" href="mailto:ben.g.eccles@icloud.com?subject=Let's chat!" target="_blank">
       <img className="svgItem" src={mail} alt="Email Link"/>
-      <img className="svgItem" src={phone} alt="Phone Link" />
+              ben.g.eccles@icloud.com
+      </a>
+      <a className="contactLink" href="tel:1-703-589-4200" target="_blank">
+              <img className="svgItem" src={phone} alt="Phone Link" />
+              703-589-4200
+      </a>
       </div>
     </div>
   );

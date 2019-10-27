@@ -1,0 +1,187 @@
+
+
+@font-face {
+    font-family: 'blanka';
+    src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+         url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ailerons';
+    src: url('../../assets/Ailerons_webfont/ailerons-regular-webfont.ttf') format('truetype'),
+         url('../../assets//Ailerons_webfont/ailerons-regular-webfont.woff') format('woff'),
+         url('../../assets/Ailerons_webfont/ailerons-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+.Header {
+  background-color: #4A7598;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.navBar {
+    margin-right: 20px;
+    width: 12vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    color: #E5ECED;
+}
+
+.navBar > a {
+    font-family: 'Ailerons';
+    font-size: 16px;
+    text-decoration: none;
+    color: #E5ECED;
+}
+
+.nameLogo {
+  margin-left: 20px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+  align-content: stretch;
+  
+  h1 {
+    font-family: 'blanka';
+    font-size: 150%;
+    color: #E5ECED;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .navBar {
+      visibility: hidden;
+  }
+  
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navBar {
+      visibility: hidden;
+      margin-right: 0px;
+      width: 0vw;
+    }
+
+    .nameLogo {
+      margin-left: 0px;
+      display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: center;
+	    align-items: center;
+      align-content: stretch;
+      overflow: auto;
+    }
+
+    
+.Header {
+  background-color: #4A7598;
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  /* overflow: auto; */
+}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .navBar {
+      visibility: hidden;
+  }
+
+  .Header {
+    height: 7vh;
+  }
+}

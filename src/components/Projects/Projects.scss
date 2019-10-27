@@ -1,14 +1,3 @@
-@font-face {
-  font-family: "blanka";
-  src: url("../../assets/blanka_webfont/blanka-regular-webfont.ttf")
-      format("truetype"),
-    url("../../assets/blanka_webfont/blanka-regular-webfont.woff")
-      format("woff"),
-    url("../../assets//blanka_webfont/blanka-regular-webfont.woff2")
-      format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 
 #Projects {
   width: 100vw;
@@ -28,19 +17,12 @@
 .project {
   color: white;
   border: 1px solid red;
-  /* list-style-type: disc; */
   font-family: "Roboto slab", sans-serif;
   margin: 10px;
   padding: 35px;
   border-width: 15px;
   height: 800px;
   width: 700px;
-  // display: flex;
-	// flex-direction: column;
-	// flex-wrap: nowrap;
-	// justify-content: center;
-	// align-items: center;
-	// align-content: stretch;
 
   .projectImages {
     border: 5px solid green;

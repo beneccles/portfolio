@@ -5,7 +5,7 @@ import post from './assets/reforged/post.png';
 import create_empty from './assets/reforged/create_empty.png';
 import create_filled from './assets/reforged/create_filled.png';
 import dashboard from "./assets/reforged/dashboard.png";
-import "./Projects.css";
+import "./Projects.scss";
 
 function Projects() {
     const settings = {
