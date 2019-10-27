@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'blanka';
+    src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+         url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+         url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+         font-weight: normal;
+         font-style: normal;
+}
+
+#Contact {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5ECED;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+    border: 5px solid orange;
+}
+
+.contactInfo {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: stretch;
+    border: 5px solid red;
+    width: 90%;
+    height: 90%;
+}
+
+#Contact > h1 {
+    margin-top: 10px;
+    font-family: 'blanka';
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    border-bottom: 2px solid #E5ECED;
+    width: 50%;
+}
+
+.svgItem-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    
+
+}
+
