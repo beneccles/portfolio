@@ -19,7 +19,7 @@
           align-items: center;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
   border: 5px solid green;
 }
 

@@ -36,7 +36,7 @@
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
     align-content: stretch;
     color: #E5ECED;
@@ -63,6 +63,15 @@
     font-size: 150%;
     color: #E5ECED;
   }
+}
+
+.MenuDiv {
+  position: fixed;
+  top: 0;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */

@@ -10,7 +10,7 @@
     justify-content: center;
     align-items: center;
     align-content: stretch;
-    scroll-snap-align: center;
+    // scroll-snap-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -44,6 +44,21 @@
     font-family: 'Roboto slab', sans-serif;
     font-size: 26px;
   }
+}
+
+#satNav {
+  position: relative;
+  left: 650px;
+  bottom: 200px;
+  transform: rotate(-63deg);
+
+  .navLink {
+    color: #E5ECED;
+    font-size: 26px;
+    font-family: 'Roboto slab', sans-serif;
+    text-decoration: none;
+  }
+
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */

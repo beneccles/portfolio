@@ -5,6 +5,7 @@ import me from "../../assets/me.jpg";
 export default function About() {
   return (
     <div className="About">
+      {/* <h1>About</h1> */}
       <div className="image" style={{ backgroundImage: `url(${me})` }}></div>
       <div id="aboutMe">
         <h1>Hi! I'm Ben...</h1>

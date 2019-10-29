@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import About from './components/About/About';
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
+// import { slide as Menu } from 'react-burger-menu'
 import './App.css';
 
 
@@ -16,15 +17,16 @@ class App extends Component {
     this.projects = React.createRef()
   }
 
+ 
+
   render() {
-    console.log(this.projects.current)
     return (
         <body>
-      <div className="App" ref={this.projects}>
-        <Header/>
+      <div className="App">
+        {/* <Header project={this.projects}/> */}
         <Hero />
         <About />
-        <Projects />
+        <Projects ref={this.projects} />
         <Skills />
         <Contact />
       </div>
