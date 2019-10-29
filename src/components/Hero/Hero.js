@@ -9,13 +9,13 @@ function Hero() {
   return (
     <div id="Hero" style={{ backgroundImage: `url(${nasa})` }}>
     <div id="satNav">
-      <a href="#about">
+      <a href="#About">
           <p id="pAbout" className="navLink">About</p>
       </a>
       <a className="menu-item" href="#Projects" ref={projectLink}>
         <p id="pProjects" className="navLink">Projects</p>
       </a>
-      <a className="Menu-item" href="#Stack">
+      <a className="Menu-item" href="#Skills">
         <p id="pStack" className="navLink">Stack</p>
       </a>
       <a className="menu-item" href="#Contact">
