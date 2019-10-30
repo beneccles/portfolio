@@ -5,9 +5,9 @@ import "./Hero.scss";
 
 function Hero() {
     const projectLink = useRef(null);
-
+// style={{ backgroundImage: `url(${nasa})` }}
   return (
-    <div id="Hero" style={{ backgroundImage: `url(${nasa})` }}>
+    <div id="Hero" >
     <div id="satNav">
       <a href="#About">
           <p id="pAbout" className="navLink">About</p>

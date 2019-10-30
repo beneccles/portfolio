@@ -63,10 +63,6 @@ html {
           box-sizing: inherit;
 }
 
-body {
-  background-color: #243447;
-}
-
 html::-webkit-scrollbar {
   display: none;
 }
@@ -92,5 +88,8 @@ html::-webkit-scrollbar {
           align-items: center;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=App.css.map */

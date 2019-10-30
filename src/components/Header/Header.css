@@ -13,7 +13,6 @@
 }
 
 .Header {
-  background-color: #4A7598;
   width: 100vw;
   height: 5vh;
   display: -webkit-box;
@@ -36,7 +35,7 @@
 }
 
 .navBar {
-  margin-right: 20px;
+  margin-right: 40px;
   width: 12vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,9 +46,9 @@
           flex-direction: row;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -90,6 +89,15 @@
   font-family: 'blanka';
   font-size: 150%;
   color: #E5ECED;
+}
+
+.MenuDiv {
+  position: fixed;
+  top: 0;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */

@@ -62,7 +62,6 @@ html {
 
 body {
   // overflow: hidden;
-  background-color:#243447;
 }
 
 html::-webkit-scrollbar {
@@ -81,6 +80,8 @@ html::-webkit-scrollbar {
  justify-content: center;
  align-items: center;
  align-content: stretch;
-
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 

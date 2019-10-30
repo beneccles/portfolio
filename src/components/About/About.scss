@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   align-content: stretch;
-  background-color: white;
+  background-color:transparent;
 
   .image {
     width: 150%;
@@ -19,6 +19,7 @@
     background-position: 50%;
     position: relative;
     left: 40px;
+    bottom: 200px;
   }
 
   #aboutMe {
@@ -34,7 +35,8 @@
       font-family: "Roboto slab", sans-serif;
       position: relative;
       left: 100px;
-      margin-bottom: 20px;
+      top: 70px;
+      margin-bottom: 0px;
     }
   }
 
@@ -42,6 +44,7 @@
     font-family: "Roboto slab", sans-serif;
     position: relative;
     left: 100px;
+    top: 100px;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -90,4 +93,13 @@
       margin-left: 50px;
     }
   }
+}
+
+#shuttle {
+  height: 60vh;
+  width: 60vw;
+  background-size: cover;
+  position: relative;
+  left: 220px;
+  top: 70px;
 }

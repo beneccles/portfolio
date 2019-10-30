@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
 import me from "../../assets/me.jpg";
+import shuttle from "../../assets/shuttle.png"
 
 export default function About() {
   return (
@@ -19,10 +20,7 @@ export default function About() {
           composing on Piano or playing games like Destiny 2. If you have
           questions please don't hesitate to get in touch!
         </p>
-        <div className="navi">
-          <a href="#Projects">Projects </a>
-          <a>Stack </a>
-          <a>Contact</a>
+        <div id="shuttle" style={{ backgroundImage: `url(${shuttle})` }}>
         </div>
       </div>
     </div>

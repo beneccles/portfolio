@@ -4,10 +4,11 @@ import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
+import nasa from "./assets/nasa2.jpg";
 // eslint-disable-next-line
 import Hero from './components/Hero/Hero';
 // import { slide as Menu } from 'react-burger-menu'
-import './App.css';
+import './App.scss';
 
 
 class App extends Component {
@@ -22,7 +23,7 @@ class App extends Component {
   render() {
     return (
         <body>
-      <div className="App">
+      <div className="App" style={{ backgroundImage: `url(${nasa})` }}>
         {/* <Header project={this.projects}/> */}
         <Hero />
         <About />

@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap");
-.About {
+#About {
   height: 100vh;
   width: 100vw;
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,21 +19,21 @@
           align-items: center;
   -ms-flex-line-pack: stretch;
       align-content: stretch;
-  background-color: white;
+  background-color: transparent;
 }
 
-.About .image {
+#About .image {
   width: 150%;
   height: 150%;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 1px solid green;
   background-position: 50%;
   position: relative;
   left: 40px;
+  bottom: 200px;
 }
 
-.About #aboutMe {
+#About #aboutMe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,17 +54,19 @@
       align-content: stretch;
 }
 
-.About #aboutMe h1 {
+#About #aboutMe h1 {
   font-family: "Roboto slab", sans-serif;
   position: relative;
   left: 100px;
-  margin-bottom: 20px;
+  top: 70px;
+  margin-bottom: 0px;
 }
 
-.About p {
+#About p {
   font-family: "Roboto slab", sans-serif;
   position: relative;
   left: 100px;
+  top: 100px;
   display: block;
   -webkit-margin-before: 1em;
           margin-block-start: 1em;
@@ -81,11 +82,11 @@
   line-height: 35px;
 }
 
-.About h1 {
+#About h1 {
   font-size: 2rem;
 }
 
-.About .navi {
+#About .navi {
   margin-top: 20px;
   width: 80%;
   height: 40px;
@@ -110,7 +111,7 @@
       align-content: stretch;
 }
 
-.About .navi a {
+#About .navi a {
   font-family: "Roboto slab", sans-serif;
   font-size: 1.6rem;
   text-decoration: none;
@@ -118,11 +119,20 @@
   border-right: 2px solid black;
 }
 
-.About .navi a:nth-child(1) {
+#About .navi a:nth-child(1) {
   border-left: 2px solid black;
 }
 
-.About .navi a:nth-child(n + 2) {
+#About .navi a:nth-child(n + 2) {
   margin-left: 50px;
+}
+
+#shuttle {
+  height: 60vh;
+  width: 60vw;
+  background-size: cover;
+  position: relative;
+  left: 220px;
+  top: 70px;
 }
 /*# sourceMappingURL=About.css.map */
