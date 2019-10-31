@@ -13,7 +13,7 @@ function Projects() {
     const settings = {
         dots: false,
         infinite: true,
-        arrows: true,
+        arrows: false,
         speed: 500,
         autoplay: true,
         slidesToShow: 1,
@@ -50,11 +50,11 @@ function Projects() {
             Built using: React.js, Express, PostgreSQL, Amazon S3, and Twillio.
           </p>
           <br />
-          <a href="www.reforged.tech">
+          <a id="reforge" href="www.reforged.tech">
             <img src={web} alt="Web Icon" />
             Reforged.tech
           </a>
-          <a href="https://github.com/beneccles/reforge">
+          <a id="github" href="https://github.com/beneccles/reforge">
             <img src={github} alt="Github Link" />
             Github
           </a>

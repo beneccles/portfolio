@@ -3,7 +3,6 @@
 #Hero {
     width: 100%;
     height: 100vh;
-    border: 5px solid red;
     // background-color: #253448;
     display: flex;
     flex-direction: column;
@@ -41,7 +40,7 @@
   }
 
   p {
-    color: #E5ECED;
+    color:#E5ECED;
     font-family: 'Roboto slab', sans-serif;
     font-size: 26px;
   }
@@ -50,55 +49,6 @@
     text-decoration: none;
     color: #E5ECED;
   }
-}
-
-#satNav {
-  position: relative;
-  left: 560px;
-  bottom: 45px;
-  // transform: rotate(-63deg);
-  // transform: rotate(-63deg);
-
-  .navLink {
-    color: #E5ECED;
-    font-size: 26px;
-    font-family: 'Roboto slab', sans-serif;
-    text-decoration: none;
-    position: relative;
-
-  }
-
-  #pAbout {
-    bottom: 20px;
-    right: 15px;
-    font-size: 24px;
-    transform: perspective(200px);
-  }
-
-  #pProjects {
-    right: 20px;
-    font-size: 25px;
-  }
-
-  #pStack {
-    top: 20px;
-    right: 20px;
-    font-size: 26px;
-  }
-
-  #pContact {
-    top: 40px;
-    right: 17px;
-    font-size: 26px;
-  }
-
-}
-
-.cls-1 {
-  fill: none;
-  stroke: #E5C;
-  stroke-width: 5px;
-  fill-rule: evenodd;
 }
 
 
