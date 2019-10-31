@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="469.66" viewBox="0 0 960 469.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Curve" class="cls-1" d="M4926,1315a885.687,885.687,0,0,1-135-2c-48.73-4.45-117.64-18.9-185-37-60.23-16.18-118.5-34.36-168-53-52.53-19.78-111.53-46.23-171-76-36.63-18.34-69.17-36.53-100-57a747.469,747.469,0,0,1-89-69c-21.39-19.39-37.43-39.778-58-61a189.246,189.246,0,0,1-38-57,196.724,196.724,0,0,1-15-55" transform="translate(-3966.5 -847.5)"/>
+   <text height="469" width="960">
+<textPath  xlink:href="#curve">
+About
+  </textPath>
+  </text>
+</svg>

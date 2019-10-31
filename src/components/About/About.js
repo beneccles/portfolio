@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 import me from "../../assets/me.jpg";
-import shuttle from "../../assets/shuttle.png"
+import shuttle from "../../assets/shuttle_only.png"
 
 export default function About() {
   return (

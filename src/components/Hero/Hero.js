@@ -9,7 +9,7 @@ function Hero() {
   return (
     <div id="Hero" >
     <div id="satNav">
-      <a href="#About">
+      {/* <a href="#About">
           <p id="pAbout" className="navLink">About</p>
       </a>
       <a className="menu-item" href="#Projects" ref={projectLink}>
@@ -20,9 +20,11 @@ function Hero() {
       </a>
       <a className="menu-item" href="#Contact">
         <p id="pContact" className="navLink">Contact</p>
-      </a>
+      </a> */}
     </div>
+  
       <div className="heroText">
+        <p><a href="#About">About</a>   -   <a href="#Projects">Projects</a>   -   <a href="#Skills">Stack</a>   -   <a href="#Contact">Contact</a></p>
         <h1>My Name is Benjamin Eccles</h1>
         <p>a Full Stack Developer based out of Lehi, UT.</p>
       </div>
