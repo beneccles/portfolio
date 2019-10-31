@@ -1,9 +1,10 @@
 import React from "react";
-import "./Skills.css";
+import nasa from "../../assets/nasa3.jpg";
+import "./Skills.scss";
 
 export default function Skills() {
   return (
-    <div id="Skills" className="Skills">
+    <div id="Skills" className="Skills" style={{ backgroundImage: `url(${nasa})` }}>
       <h1>Skills</h1>
       <div className="skillIcons">
         {/* Javascript */}

@@ -3,13 +3,16 @@
 #Skills {
     width: 100%;
     height: 100vh;
-    background-color: transparent;
     display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-y: 65%;
 
 	h1 {
 		font-family: 'Roboto Mono', monospace;
