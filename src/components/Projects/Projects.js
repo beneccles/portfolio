@@ -5,6 +5,9 @@ import post from './assets/reforged/post.png';
 import create_empty from './assets/reforged/create_empty.png';
 import create_filled from './assets/reforged/create_filled.png';
 import dashboard from "./assets/reforged/dashboard.png";
+import game from './assets/waka2/game.png';
+import highscore from './assets/waka2/highscore.png';
+import landing from './assets/waka2/landing.png';
 import web from "../../assets/web-24px.svg";
 import github from '../../assets/github.svg';
 import "./Projects.scss";
@@ -60,7 +63,21 @@ function Projects() {
           </a>
       </div>
       <div className="project">
-        <h1>COMING SOON</h1>
+        <h1>WAKA TWO</h1>
+        <Slider {...settings}>
+        <img src={landing} alt="landing page"/>
+        <img src={game} alt="game screenshot"/>
+        <img src={highscore} alt="highscore screenshot" />
+        </Slider>
+        <p>
+        Waka 2 is a full Pacman clone built using React, Express, PostgreSQL, and Sass (both the verbal and CSS kind). The game includes
+        a single player version as well as a 2 player pacman versus mode. For single player, each ghost is programmed to chase Pacman per the original game logic. Blinky will track Pacman's coordinates directly. 
+        Pinky will target 4 spaces in front of Pacman to cut off the player. Inky will also try to cut the player off by finding 
+        the halfway point between Blinky and Pacman, and then target 180 degrees from that point. Finally Clyde will follow Blinky's
+        tracking if he is 8 or more spaces from the player, or follow scatter mode tracking if within 8 spaces. The player will win the 
+        game if the successfully evade the ghosts and collect all of the pellets. The player looses the game if they loose all three lives. In two player mode,
+        the first player to collect the most pellets wins. If a player eats a power pellet, they gain the power to eat the other player.
+        </p>
       </div>
     </div>
   );
