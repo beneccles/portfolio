@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&display=swap');
+@font-face {
+  font-family: 'blanka';
+  src: url('../../assets/blanka_webfont/blanka-regular-webfont.ttf') format('truetype'),
+       url('../../assets/blanka_webfont/blanka-regular-webfont.woff') format('woff'),
+       url('../../assets//blanka_webfont/blanka-regular-webfont.woff2') format('woff2');
+       font-weight: normal;
+       font-style: normal;
+}
 
 #Hero {
     width: 100%;
