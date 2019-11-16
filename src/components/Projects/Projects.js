@@ -82,9 +82,9 @@ function Projects() {
           Built using: React.js, Express, PostgreSQL, and Sass.
         </p>
         <br />
-          <a id="reforge" href="www.waka2.dev">
+          <a id="reforge" href="https://www.waka2.dev">
             <img src={web} alt="Web Icon" />
-            waak2.dev
+            waka2.dev
           </a>
           <a id="github" href="https://github.com/waka2/waka2">
             <img src={github} alt="Github Link" />
