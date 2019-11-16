@@ -78,6 +78,18 @@ function Projects() {
         game if the successfully evade the ghosts and collect all of the pellets. The player looses the game if they loose all three lives. In two player mode,
         the first player to collect the most pellets wins. If a player eats a power pellet, they gain the power to eat the other player.
         </p>
+        <p>
+          Built using: React.js, Express, PostgreSQL, and Sass.
+        </p>
+        <br />
+          <a id="reforge" href="www.waka2.dev">
+            <img src={web} alt="Web Icon" />
+            waak2.dev
+          </a>
+          <a id="github" href="https://github.com/waka2/waka2">
+            <img src={github} alt="Github Link" />
+            Github
+          </a>
       </div>
     </div>
   );
