@@ -63,7 +63,6 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
-
 }
 
 /* Portrait */
@@ -72,6 +71,20 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    .heroText{
+      h1 {
+        font-family: 'Blanka';
+        color: #E5ECED;
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      p {
+        color:#E5ECED;
+        font-family: 'Roboto slab', sans-serif;
+        font-size: 12px;
+      }
+    }
 }
 
 /* Landscape */
