@@ -31,11 +31,11 @@ function Projects() {
       <div className="project">
         <h1>REFORGED MACHINES</h1>
         <Slider {...settings}>
-        <img src={login} alt="login screenshot"/>
-        <img src={dashboard} alt="Dashboard screenshot"/>
-        <img src={post} alt="Post screenshot" />
-        <img src={create_empty} alt="Create Empty" />
-        <img src={create_filled} alt="Create Filled"/>
+        <img src={login} height="335.28" alt="login screenshot"/>
+        <img src={dashboard} height="335.28" alt="Dashboard screenshot"/>
+        <img src={post} height="335.28" alt="Post screenshot" />
+        <img src={create_empty} height="335.28" alt="Create Empty" />
+        <img src={create_filled} height="335.28" alt="Create Filled"/>
         </Slider>
           <p>
             Reforged Machines is a platform for buying and selling used
@@ -77,9 +77,6 @@ function Projects() {
         tracking if he is 8 or more spaces from the player, or follow scatter mode tracking if within 8 spaces. The player will win the 
         game if the successfully evade the ghosts and collect all of the pellets. The player looses the game if they loose all three lives. In two player mode,
         the first player to collect the most pellets wins. If a player eats a power pellet, they gain the power to eat the other player.
-        </p>
-        <p>
-          Built using: React.js, Express, PostgreSQL, and Sass.
         </p>
         <br />
           <a id="reforge" href="https://www.waka2.dev">
