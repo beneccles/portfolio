@@ -49,6 +49,10 @@
     text-decoration: none;
     color: #E5ECED;
   }
+
+  a:hover {
+    filter: invert(100%);
+  }
 }
 
 
